@@ -9,7 +9,7 @@ const About = () => {
               Building Dreams With Quality Materials
             </h2>
             <p className="font-inter text-lg text-gray-600 mb-6 leading-relaxed">
-              For over two decades, TileStone Pro has been the trusted name in premium tiles, 
+              For over two decades, KESARWANI SANITARY WARE has been the trusted name in premium tiles, 
               marble, and water fittings. We specialize in providing high-quality materials 
               that transform ordinary spaces into extraordinary environments.
             </p>
