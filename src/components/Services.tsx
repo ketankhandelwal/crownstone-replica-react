@@ -6,36 +6,36 @@ const Services = () => {
   const services = [
     {
       icon: Gem,
-      title: "Custom Design",
-      description: "Transform your vision into reality with our bespoke jewelry design service. From concept to creation, we work closely with you to craft the perfect piece."
+      title: "Premium Materials",
+      description: "Sourced from the finest quarries and manufacturers worldwide, our materials meet the highest quality standards for durability and aesthetics."
     },
     {
       icon: Palette,
       title: "Design Consultation",
-      description: "Our expert designers provide personalized consultations to help you choose the perfect piece or create something entirely unique."
+      description: "Our expert designers provide personalized consultations to help you choose the perfect materials and create stunning design concepts."
     },
     {
       icon: Settings,
-      title: "Repair & Restoration",
-      description: "Breathe new life into your treasured pieces with our professional repair and restoration services, handled with the utmost care."
+      title: "Installation Services",
+      description: "Professional installation services by certified technicians ensure your tiles and fittings are installed to perfection."
     },
     {
       icon: Heart,
-      title: "Lifetime Care",
-      description: "We stand behind our craftsmanship with comprehensive lifetime care, including cleaning, maintenance, and adjustments."
+      title: "After-Sales Support",
+      description: "Comprehensive after-sales support including maintenance guidance, replacement parts, and warranty coverage for complete peace of mind."
     }
   ];
 
   return (
-    <section id="custom" className="py-20 bg-white">
+    <section id="services" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="font-playfair text-4xl md:text-5xl font-bold text-gray-900 mb-6">
             Our Services
           </h2>
           <p className="font-inter text-xl text-gray-600 max-w-3xl mx-auto">
-            Beyond creating beautiful jewelry, we offer comprehensive services to ensure your pieces 
-            remain as stunning as the day you first wore them.
+            Beyond providing premium materials, we offer comprehensive services to ensure your 
+            project is completed to the highest standards from start to finish.
           </p>
         </div>
         

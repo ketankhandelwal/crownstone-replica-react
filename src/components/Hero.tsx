@@ -1,5 +1,6 @@
 
 import { Button } from '@/components/ui/button';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
@@ -9,28 +10,32 @@ const Hero = () => {
       <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="animate-fade-in">
           <h1 className="font-playfair text-5xl md:text-7xl font-bold text-gray-900 mb-6 leading-tight">
-            Exquisite
-            <span className="block text-gold-600">Luxury Jewelry</span>
+            Premium
+            <span className="block text-gold-600">Tiles & Marble</span>
           </h1>
           
           <p className="font-inter text-xl md:text-2xl text-gray-600 mb-8 max-w-2xl mx-auto leading-relaxed">
-            Handcrafted with passion, designed with precision. Discover our collection of timeless pieces that celebrate your unique story.
+            Transform your spaces with our exquisite collection of tiles, marble, and premium water fittings. Quality craftsmanship for modern living.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button 
-              size="lg" 
-              className="bg-gold-600 hover:bg-gold-700 text-white px-8 py-3 text-lg font-medium transition-all duration-300 transform hover:scale-105"
-            >
-              Explore Collections
-            </Button>
-            <Button 
-              variant="outline" 
-              size="lg"
-              className="border-gold-600 text-gold-600 hover:bg-gold-600 hover:text-white px-8 py-3 text-lg font-medium transition-all duration-300"
-            >
-              Custom Design
-            </Button>
+            <Link to="/products">
+              <Button 
+                size="lg" 
+                className="bg-gold-600 hover:bg-gold-700 text-white px-8 py-3 text-lg font-medium transition-all duration-300 transform hover:scale-105"
+              >
+                Explore Products
+              </Button>
+            </Link>
+            <Link to="/contact">
+              <Button 
+                variant="outline" 
+                size="lg"
+                className="border-gold-600 text-gold-600 hover:bg-gold-600 hover:text-white px-8 py-3 text-lg font-medium transition-all duration-300"
+              >
+                Get Quote
+              </Button>
+            </Link>
           </div>
         </div>
       </div>

@@ -8,25 +8,25 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Phone",
-      detail: "+1 (555) 123-4567",
-      link: "tel:+15551234567"
+      detail: "+91 98765 43210",
+      link: "tel:+919876543210"
     },
     {
       icon: Mail,
       title: "Email",
-      detail: "hello@crownstonedesigns.com",
-      link: "mailto:hello@crownstonedesigns.com"
+      detail: "info@tilestonepro.com",
+      link: "mailto:info@tilestonepro.com"
     },
     {
       icon: MapPin,
       title: "Address",
-      detail: "123 Jewelry District, New York, NY 10001",
+      detail: "123 Tile Market Street, Mumbai, MH 400001",
       link: "https://maps.google.com"
     },
     {
       icon: Clock,
       title: "Hours",
-      detail: "Mon-Sat: 10AM-7PM, Sun: 12PM-5PM",
+      detail: "Mon-Sat: 9AM-8PM, Sun: 10AM-6PM",
       link: null
     }
   ];
@@ -39,8 +39,8 @@ const Contact = () => {
             Get In Touch
           </h2>
           <p className="font-inter text-xl text-gray-600 max-w-3xl mx-auto">
-            Ready to create something extraordinary? We'd love to hear from you. 
-            Contact us to schedule a consultation or visit our showroom.
+            Ready to transform your space? Contact us for expert consultation and 
+            premium quality materials for your next project.
           </p>
         </div>
         
@@ -128,13 +128,15 @@ const Contact = () => {
                   
                   <div>
                     <label className="block font-inter text-sm font-medium text-gray-700 mb-2">
-                      Subject
+                      Project Type
                     </label>
-                    <input
-                      type="text"
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gold-500 focus:border-transparent transition-all duration-200"
-                      placeholder="What can we help you with?"
-                    />
+                    <select className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gold-500 focus:border-transparent transition-all duration-200">
+                      <option>Select project type</option>
+                      <option>Tiles Installation</option>
+                      <option>Marble Work</option>
+                      <option>Water Fittings</option>
+                      <option>Complete Renovation</option>
+                    </select>
                   </div>
                   
                   <div>
@@ -144,7 +146,7 @@ const Contact = () => {
                     <textarea
                       rows={5}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gold-500 focus:border-transparent transition-all duration-200 resize-none"
-                      placeholder="Tell us about your dream piece..."
+                      placeholder="Tell us about your project requirements..."
                     ></textarea>
                   </div>
                   

@@ -6,17 +6,17 @@ const About = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-in">
             <h2 className="font-playfair text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Crafting Dreams Into Reality
+              Building Dreams With Quality Materials
             </h2>
             <p className="font-inter text-lg text-gray-600 mb-6 leading-relaxed">
-              For over two decades, Crownstone Designs has been at the forefront of luxury jewelry creation. 
-              Our master craftsmen combine traditional techniques with contemporary design to create pieces 
-              that are both timeless and uniquely modern.
+              For over two decades, TileStone Pro has been the trusted name in premium tiles, 
+              marble, and water fittings. We specialize in providing high-quality materials 
+              that transform ordinary spaces into extraordinary environments.
             </p>
             <p className="font-inter text-lg text-gray-600 mb-8 leading-relaxed">
-              Every piece tells a story - your story. Whether it's an engagement ring that marks the beginning 
-              of forever, or a custom necklace that celebrates a milestone, we believe jewelry should be as 
-              unique as the person wearing it.
+              From luxury residential projects to commercial installations, our extensive 
+              range of products and expert guidance ensures your vision becomes reality. 
+              We pride ourselves on quality, durability, and exceptional customer service.
             </p>
             
             <div className="grid grid-cols-2 gap-8">
@@ -25,24 +25,24 @@ const About = () => {
                 <div className="font-inter text-gray-600">Years of Excellence</div>
               </div>
               <div className="text-center">
-                <div className="font-playfair text-3xl font-bold text-gold-600 mb-2">5000+</div>
-                <div className="font-inter text-gray-600">Happy Customers</div>
+                <div className="font-playfair text-3xl font-bold text-gold-600 mb-2">10000+</div>
+                <div className="font-inter text-gray-600">Projects Completed</div>
+              </div>
+              <div className="text-center">
+                <div className="font-playfair text-3xl font-bold text-gold-600 mb-2">500+</div>
+                <div className="font-inter text-gray-600">Product Varieties</div>
               </div>
               <div className="text-center">
                 <div className="font-playfair text-3xl font-bold text-gold-600 mb-2">100%</div>
-                <div className="font-inter text-gray-600">Handcrafted</div>
-              </div>
-              <div className="text-center">
-                <div className="font-playfair text-3xl font-bold text-gold-600 mb-2">∞</div>
-                <div className="font-inter text-gray-600">Possibilities</div>
+                <div className="font-inter text-gray-600">Quality Assured</div>
               </div>
             </div>
           </div>
           
           <div className="relative">
             <img
-              src="https://images.unsplash.com/photo-1573408301185-9146fe634ad0?w=600&h=700&fit=crop&crop=center"
-              alt="Jewelry craftsman at work"
+              src="https://images.unsplash.com/photo-1582037928769-181f2644ecb7?w=600&h=700&fit=crop&crop=center"
+              alt="Tile installation work"
               className="rounded-lg shadow-2xl w-full h-96 object-cover"
             />
             <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-gold-200 rounded-lg opacity-50 -z-10"></div>

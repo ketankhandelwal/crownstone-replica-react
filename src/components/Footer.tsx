@@ -10,19 +10,19 @@ const Footer = () => {
   ];
 
   const quickLinks = [
-    { name: "About Us", href: "#about" },
-    { name: "Collections", href: "#collections" },
-    { name: "Custom Design", href: "#custom" },
-    { name: "Care Guide", href: "#" },
-    { name: "Size Guide", href: "#" }
+    { name: "About Us", href: "/about" },
+    { name: "Products", href: "/products" },
+    { name: "Gallery", href: "/gallery" },
+    { name: "Installation Guide", href: "#" },
+    { name: "Maintenance Tips", href: "#" }
   ];
 
   const services = [
-    { name: "Custom Design", href: "#" },
-    { name: "Repairs", href: "#" },
-    { name: "Appraisals", href: "#" },
-    { name: "Consultation", href: "#" },
-    { name: "Lifetime Care", href: "#" }
+    { name: "Design Consultation", href: "#" },
+    { name: "Installation", href: "#" },
+    { name: "Custom Orders", href: "#" },
+    { name: "Bulk Supply", href: "#" },
+    { name: "Technical Support", href: "#" }
   ];
 
   return (
@@ -32,11 +32,11 @@ const Footer = () => {
           {/* Brand */}
           <div className="lg:col-span-1">
             <h3 className="font-playfair text-2xl font-bold text-gold-400 mb-4">
-              Crownstone Designs
+              TileStone Pro
             </h3>
             <p className="font-inter text-gray-300 mb-6 leading-relaxed">
-              Creating exquisite luxury jewelry with passion and precision. 
-              Your story, beautifully crafted.
+              Premium tiles, marble, and water fittings for modern living spaces. 
+              Quality materials, expert service.
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((social) => (
@@ -90,13 +90,13 @@ const Footer = () => {
           <div>
             <h4 className="font-inter font-semibold text-lg mb-6">Contact Info</h4>
             <div className="space-y-3 font-inter text-gray-300">
-              <p>123 Jewelry District<br />New York, NY 10001</p>
-              <p>Phone: +1 (555) 123-4567</p>
-              <p>Email: hello@crownstonedesigns.com</p>
+              <p>123 Tile Market Street<br />Mumbai, MH 400001</p>
+              <p>Phone: +91 98765 43210</p>
+              <p>Email: info@tilestonepro.com</p>
               <p className="mt-4 text-sm">
                 <strong>Store Hours:</strong><br />
-                Mon-Sat: 10AM-7PM<br />
-                Sunday: 12PM-5PM
+                Mon-Sat: 9AM-8PM<br />
+                Sunday: 10AM-6PM
               </p>
             </div>
           </div>
@@ -106,7 +106,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="font-inter text-gray-400 text-sm">
-              © 2024 Crownstone Designs. All rights reserved.
+              © 2024 TileStone Pro. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="font-inter text-gray-400 hover:text-gold-400 text-sm transition-colors duration-200">
@@ -116,7 +116,7 @@ const Footer = () => {
                 Terms of Service
               </a>
               <a href="#" className="font-inter text-gray-400 hover:text-gold-400 text-sm transition-colors duration-200">
-                Cookie Policy
+                Warranty Policy
               </a>
             </div>
           </div>
