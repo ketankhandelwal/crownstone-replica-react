@@ -11,7 +11,7 @@ const About = () => {
         <section className="bg-gradient-to-r from-gold-50 to-cream-100 py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h1 className="font-playfair text-5xl md:text-6xl font-bold text-gray-900 mb-6">
-              About TileStone Pro
+              About KESARWANI SANITARY WARE
             </h1>
             <p className="font-inter text-xl text-gray-600 max-w-3xl mx-auto">
               Your trusted partner in premium tiles, marble, and water fittings
@@ -25,7 +25,7 @@ const About = () => {
             <div className="prose prose-lg mx-auto">
               <h2 className="font-playfair text-3xl font-bold text-gray-900 mb-6">Our Story</h2>
               <p className="font-inter text-gray-600 mb-6">
-                Founded in 2000, TileStone Pro began as a small family business with a vision to provide 
+                Founded in 2000, KESARWANI SANITARY WARE began as a small family business with a vision to provide 
                 premium quality tiles and marble to discerning customers. Over the years, we have grown 
                 to become one of the leading suppliers in the region, known for our exceptional quality 
                 and customer service.

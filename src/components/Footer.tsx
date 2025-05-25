@@ -32,7 +32,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="lg:col-span-1">
             <h3 className="font-playfair text-2xl font-bold text-gold-400 mb-4">
-              TileStone Pro
+              KESARWANI SANITARY WARE
             </h3>
             <p className="font-inter text-gray-300 mb-6 leading-relaxed">
               Premium tiles, marble, and water fittings for modern living spaces. 
@@ -106,7 +106,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="font-inter text-gray-400 text-sm">
-              © 2024 TileStone Pro. All rights reserved.
+              © 2024 KESARWANI SANITARY WARE. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="font-inter text-gray-400 hover:text-gold-400 text-sm transition-colors duration-200">

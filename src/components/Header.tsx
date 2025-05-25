@@ -24,7 +24,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link to="/" className="font-playfair font-bold text-2xl text-gray-900">
-              TileStone Pro
+              KESARWANI SANITARY WARE
             </Link>
           </div>
 
