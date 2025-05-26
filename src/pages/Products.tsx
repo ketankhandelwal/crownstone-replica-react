@@ -64,7 +64,7 @@ const Products = () => {
           size: "36x36 inch", 
           price: "₹350/sq ft", 
           rating: 5.0,
-          image: "https://images.unsplash.com/photo-1600607687644-c7171b42498b?w=300&h=300&fit=crop",
+          image: "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=300&h=300&fit=crop",
           badge: "Exclusive"
         },
       ]
@@ -205,9 +205,7 @@ const Products = () => {
                           <p className="font-bold text-2xl bg-gradient-to-r from-gold-600 to-yellow-500 bg-clip-text text-transparent">
                             {product.price}
                           </p>
-                          <button className="px-4 py-2 bg-gradient-to-r from-blue-500 to-purple-500 text-white rounded-full font-semibold hover:shadow-lg transform hover:scale-105 transition-all duration-300">
-                            Add to Cart
-                          </button>
+                      
                         </div>
                       </CardContent>
                     </Card>

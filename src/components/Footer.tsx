@@ -1,5 +1,15 @@
-
 import { Facebook, Instagram, Twitter, Youtube } from 'lucide-react';
+import { useEffect } from 'react';
+
+// Custom hook for scroll to top
+const useScrollToTop = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  }, []);
+};
 
 const Footer = () => {
   const socialLinks = [
@@ -12,9 +22,7 @@ const Footer = () => {
   const quickLinks = [
     { name: "About Us", href: "/about" },
     { name: "Products", href: "/products" },
-    { name: "Gallery", href: "/gallery" },
-    { name: "Installation Guide", href: "#" },
-    { name: "Maintenance Tips", href: "#" }
+    { name: "Gallery", href: "/gallery" }
   ];
 
   const services = [
@@ -24,6 +32,17 @@ const Footer = () => {
     { name: "Bulk Supply", href: "#" },
     { name: "Technical Support", href: "#" }
   ];
+
+  // Function to handle link clicks
+  const handleLinkClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    // Only scroll to top if it's not a social media link (which should open in new tab)
+    if (!e.currentTarget.getAttribute('href')?.startsWith('#')) {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    }
+  };
 
   return (
     <footer className="bg-gray-900 text-white">
@@ -45,6 +64,8 @@ const Footer = () => {
                   href={social.href}
                   className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gold-600 transition-colors duration-300"
                   aria-label={social.label}
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <social.icon className="w-5 h-5" />
                 </a>
@@ -61,6 +82,7 @@ const Footer = () => {
                   <a
                     href={link.href}
                     className="font-inter text-gray-300 hover:text-gold-400 transition-colors duration-200"
+                    onClick={handleLinkClick}
                   >
                     {link.name}
                   </a>
@@ -78,6 +100,7 @@ const Footer = () => {
                   <a
                     href={service.href}
                     className="font-inter text-gray-300 hover:text-gold-400 transition-colors duration-200"
+                    onClick={handleLinkClick}
                   >
                     {service.name}
                   </a>
@@ -90,13 +113,13 @@ const Footer = () => {
           <div>
             <h4 className="font-inter font-semibold text-lg mb-6">Contact Info</h4>
             <div className="space-y-3 font-inter text-gray-300">
-              <p>123 Tile Market Street<br />Mumbai, MH 400001</p>
-              <p>Phone: +91 98765 43210</p>
+              <p>Infront of Hanuman Mandir, Babaganj<br />Pratapgarh, UP 230001</p>
+              <p>Phone: +91 80901 40600</p>
               <p>Email: info@tilestonepro.com</p>
               <p className="mt-4 text-sm">
                 <strong>Store Hours:</strong><br />
-                Mon-Sat: 9AM-8PM<br />
-                Sunday: 10AM-6PM
+                Sun-Mon: 10AM-8PM<br />
+                Saturday: Closed
               </p>
             </div>
           </div>
@@ -109,13 +132,25 @@ const Footer = () => {
               © 2024 KESARWANI SANITARY WARE. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
-              <a href="#" className="font-inter text-gray-400 hover:text-gold-400 text-sm transition-colors duration-200">
+              <a 
+                href="#" 
+                className="font-inter text-gray-400 hover:text-gold-400 text-sm transition-colors duration-200"
+                onClick={handleLinkClick}
+              >
                 Privacy Policy
               </a>
-              <a href="#" className="font-inter text-gray-400 hover:text-gold-400 text-sm transition-colors duration-200">
+              <a 
+                href="#" 
+                className="font-inter text-gray-400 hover:text-gold-400 text-sm transition-colors duration-200"
+                onClick={handleLinkClick}
+              >
                 Terms of Service
               </a>
-              <a href="#" className="font-inter text-gray-400 hover:text-gold-400 text-sm transition-colors duration-200">
+              <a 
+                href="#" 
+                className="font-inter text-gray-400 hover:text-gold-400 text-sm transition-colors duration-200"
+                onClick={handleLinkClick}
+              >
                 Warranty Policy
               </a>
             </div>

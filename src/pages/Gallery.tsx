@@ -58,7 +58,7 @@ const Gallery = () => {
     },
     { 
       id: 7, 
-      image: "https://images.unsplash.com/photo-1600607687644-c7171b42498b?w=600&h=400&fit=crop", 
+      image: "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=300&h=300&fit=crop", 
       title: "Luxury Marble Flooring", 
       category: "flooring",
       description: "Calacatta marble with brass inlays",

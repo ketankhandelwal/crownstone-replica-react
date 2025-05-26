@@ -8,8 +8,8 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Phone",
-      detail: "+91 98765 43210",
-      link: "tel:+919876543210"
+      detail: "+91 80901 40600",
+      link: "tel:+918090140600"
     },
     {
       icon: Mail,
@@ -20,8 +20,8 @@ const Contact = () => {
     {
       icon: MapPin,
       title: "Address",
-      detail: "123 Tile Market Street, Mumbai, MH 400001",
-      link: "https://maps.google.com"
+      detail: "Infront of Hanuman Mandir, Babaganj, Pratapgarh, UP 230001",
+      link: "https://www.google.com/maps/place/Kesarwani+Sanitery+wares/@25.9171528,81.9974539,900m/data=!3m2!1e3!4b1!4m6!3m5!1s0x399a9116fe1f5fe7:0xbbbdf138034a26f6!8m2!3d25.917148!4d82.0000342!16s%2Fg%2F11ts_075sp?entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D"
     },
     {
       icon: Clock,
